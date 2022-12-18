@@ -9,8 +9,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="selenium1" />
+        <module name="selenium2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="selenium2" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
